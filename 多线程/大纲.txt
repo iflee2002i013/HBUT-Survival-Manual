@@ -8,3 +8,14 @@ Boost.threadpool库
 Boost.process库
 标准库的thread库，mutex库，conditional库，future库
  
+
+# 指令级并行SIMD
+NEON指令集：由ARM开发的SIMD指令集库，可以在ARM处理器体系下使用。
+特点：是偏向底层汇编的指令集库，使用方法类似于单片机汇编语言。
+优点：可以针对代码做最底层方面的优化。
+缺点：
+1.底层汇编较为晦涩难懂，需要很大的学习成本。
+2.只能在ARM处理器上加速，不支持x86设备。
+
+## NEON指令级库
+arm_neon.h库
